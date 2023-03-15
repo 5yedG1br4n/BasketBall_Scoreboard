@@ -1,0 +1,90 @@
+@font-face {
+  font-family: cursedTimerULil;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  text-align: center;
+  margin: 68px auto;
+  display: flex;
+  /* justify-content: space-around; */
+  width: 575px;
+  height: 385px;
+  background: #1b244a;
+  color: #eeeeee;
+}
+
+.score-container {
+  text-align: center;
+  /* justify-content: space-around; */
+  /* padding: 0; */
+  margin-top: 68px;
+  margin-bottom: 68px;
+}
+
+#home-container {
+  margin-left: 82px;
+}
+
+#guest-container {
+  margin-right: 82px;
+  margin-left: 100px;
+}
+
+.score-header {
+  margin-top: 0;
+  font: Verdana;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  margin-bottom: 21px;
+}
+
+.score-display {
+  width: 155px;
+  height: 120px;
+  background: #080001;
+  /* margin-top: 21px; */
+  margin-bottom: 26px;
+  border-radius: 5px;
+}
+
+.score-label {
+  display: block;
+  margin: 0 20px;
+  font-family: cursedTimerULil;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  text-align: center;
+  color: #f94f6d;
+  width: 117px;
+  height: 120px;
+}
+
+.add-pts-container {
+  display: flex;
+  justify-content: space-between;
+  width: 155px;
+  height: 45px;
+}
+
+.add-pts-btn {
+  cursor: pointer;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  color: #9aabd8;
+  background: #1b244a;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  font-family: cursedTimerULil;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
