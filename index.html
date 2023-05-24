@@ -1,30 +1,28 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-    />
     <link rel="stylesheet" href="index.css" />
+    <title>Basketball Scorecard</title>
   </head>
   <body>
     <div class="container">
-      <div class="score-container" id="home-container">
-        <h3 class="score-header">HOME</h3>
-        <div class="score-display">
-          <label class="score-label" id="home-score">0</label>
+      <div class="home-div sides-container">
+        <h3 class="board-title">HOME</h3>
+        <div class="score-container">
+          <label class="points" id="home-pts">0</label>
         </div>
-        <div class="add-pts-container">
+        <div class="pts-btn-container">
           <button class="add-pts-btn" onclick="homePlusOne()">+1</button>
           <button class="add-pts-btn" onclick="homePlusTwo()">+2</button>
           <button class="add-pts-btn" onclick="homePlusThree()">+3</button>
         </div>
       </div>
-      <div class="score-container" id="guest-container">
-        <h3 class="score-header">Away</h3>
-        <div class="score-display">
-          <label class="score-label" id="guest-score">0</label>
+      <div class="guest-div sides-container">
+        <h3 class="board-title">GUEST</h3>
+        <div class="score-container">
+          <label class="points" id="guest-pts">0</label>
         </div>
-        <div class="add-pts-container">
+        <div class="pts-btn-container">
           <button class="add-pts-btn" onclick="guestPlusOne()">+1</button>
           <button class="add-pts-btn" onclick="guestPlusTwo()">+2</button>
           <button class="add-pts-btn" onclick="guestPlusThree()">+3</button>

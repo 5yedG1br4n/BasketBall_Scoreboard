@@ -1,35 +1,35 @@
-let homeScore = document.getElementById("home-score");
-let guestScore = document.getElementById("guest-score");
+let homePtsEl = document.getElementById("home-pts");
+let guestPtsEl = document.getElementById("guest-pts");
 
-let scoreHome = 0;
-let scoreGuest = 0;
+let homePoints = 0;
+let guestPoints = 0;
 
 function homePlusOne() {
-  scoreHome += 1;
-  homeScore.textContent = scoreHome;
+  homePoints += 1;
+  homePtsEl.textContent = homePoints;
 }
 
 function homePlusTwo() {
-  scoreHome += 2;
-  homeScore.textContent = scoreHome;
+  homePoints += 2;
+  homePtsEl.textContent = homePoints;
 }
 
 function homePlusThree() {
-  scoreHome += 3;
-  homeScore.textContent = scoreHome;
+  homePoints += 3;
+  homePtsEl.textContent = homePoints;
 }
 
 function guestPlusOne() {
-  scoreGuest += 1;
-  guestScore.textContent = scoreGuest;
+  guestPoints += 1;
+  guestPtsEl.textContent = guestPoints;
 }
 
 function guestPlusTwo() {
-  scoreGuest += 2;
-  guestScore.textContent = scoreGuest;
+  guestPoints += 2;
+  guestPtsEl.textContent = guestPoints;
 }
 
 function guestPlusThree() {
-  scoreGuest += 3;
-  guestScore.textContent = scoreGuest;
+  guestPoints += 3;
+  guestPtsEl.textContent = guestPoints;
 }
